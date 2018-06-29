@@ -15,25 +15,26 @@
  */
 package org.mybatis.spring.boot.autoconfigure.domain;
 
-public class City implements Domain {
+public class Name {
 
-	private Long id;
+	private Long first;
 
-	private String name;
+	private String last;
 
-	public Long getId() {
-		return this.id;
+	public Long getFirst() {
+		return first;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public void setFirst(Long first) {
+		this.first = first;
 	}
 
-	public String getName() {
-		return this.name;
+	public String getLast() {
+		return last;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setLast(String last) {
+		this.last = last;
 	}
+
 }
